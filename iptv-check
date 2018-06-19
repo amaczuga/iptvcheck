@@ -210,14 +210,11 @@ if 	[[ ! -z "$chkempt" ]]
 then
 empu=$(grep -n "0.0.0.0" <$path/temp/1 | sed 's/:.*//' > $path/temp/lndel)
 lnempu=$(wc -l < $path/temp/lndel)
-echo "found $lnempu lines"
 for ((i=1; i<="$lnempu"; i++))
 do
 lnvar=$(sed -n "${i}p" $path/temp/lndel)
 prevl=$((lnvar-1))
-echo "Cleaning line $prevl"
 sed -i -e "${prevl}d" $path/temp/1
-echo "Cleaning line $lnvar"
 sed -i -e "'${prevl}d" $path/temp/1
 done
 fi

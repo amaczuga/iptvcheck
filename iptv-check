@@ -215,7 +215,7 @@ do
 lnvar=$(sed -n "${i}p" $path/temp/lndel)
 prevl=$((lnvar-1))
 sed -i -e "${prevl}d" $path/temp/1
-sed -i -e "'${prevl}d" $path/temp/1
+sed -i -e "${prevl}d" $path/temp/1
 done
 fi
 

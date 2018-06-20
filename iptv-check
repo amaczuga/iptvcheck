@@ -365,8 +365,7 @@ echo "Checking output file for errors"
 echo ""
 awk '!x[$0]++' < $wfile > $path/outtemp
 rm -rf $wfile >/dev/null 2>&1
-awk '{a[++j]=$0; if ($0=="" && PBL==NR-2) j=j-2; if ($0=="") PBL=NR}
-  END{for (k=1;k<=j;k++) print a[k]}' $path/outemp > $wfile
+mv "$path/outtemp" "$wfile" >/dev/null 2>&1
 echo ""
 echo -e "$green" "Job Finished"
 echo ""

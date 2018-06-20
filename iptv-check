@@ -47,14 +47,14 @@ rpid=$(ps -p "$pid" -o pid= | awk '{print$1}')
 if [[ "$rpid" == "$pid" ]]
 then
 kill $pid >/dev/null 2>&1
-rm -rf $path/temp/* >/dev/null 2>&1
+#rm -rf $path/temp/* >/dev/null 2>&1
 exit 1
 else
-rm -rf $path/temp/* >/dev/null 2>&1
+#rm -rf $path/temp/* >/dev/null 2>&1
 exit 1
 fi	
 else
-rm -rf $path/temp/* >/dev/null 2>&1
+#rm -rf $path/temp/* >/dev/null 2>&1
 exit 1
 fi
 
@@ -298,8 +298,12 @@ glnk=$(grep -F "http" < "$path/temp/1" | sed '/EXTINF/d' | sed '/EXTM3U/d' | awk
 
 #Write all the http links only to a new file so they can be checked ahead
 echo "$glnk" | tr " " "\n" > "$path/temp/2"
-# Counts how many links must be checked
-srvnmb=$(wc -l "$path/temp/2" | awk '{print$1}')
+
+# Counts how many lines exist in the file with links to be checked
+grep "^http" $path/temp/2 > $path/temp/3
+rm -rf $path/temp/2 >/dev/null 2>&1
+mv "$path/temp/3" "$path/temp/2" >/dev/null 2>&1
+
 # removes any previous temp pid files and stream captures from previous run
 rm -rf "$path/temp/stream" >/dev/null 2>&1
 rm -rf "$path/temp/pid.tmp" >/dev/null 2>&1
@@ -307,8 +311,9 @@ echo ""
 echo -e "$red""Press CTRL+C To Stop or Abort IPTV list check"
 echo ""
 
+lnknmb=$(wc -l "$path/temp/2" | awk '{print$1}')
 # Starts the stream checks
-for i in $(seq "$srvnmb")
+for i in $(seq "$lnknmb")
 do
 chkf=$(sed -n "${i}p" < "$path/temp/2")
 # To avoid errors in previous filter , it checks if the link starts with http , rtmp or HTTP
@@ -342,9 +347,9 @@ stsz=$(wc -c "$path/temp/stream" | awk '{print$1}')
 # In case stream file is less than value in bts (default is 100 bytes) then it is not valid
 if [[ "$stsz" -le "$bts" ]]
 then
-echo -e "$green" "Link:$yellow $i$green of :$yellow$srvnmb$green is$red OFF"
+echo -e "$green""Link:$yellow $i$green of :$yellow$lnknmb$green is$red OFF"
 else
-echo -e "$green" "Link:$yellow $i$green of :$yellow$srvnmb$green is$green ON"
+echo -e "$green""Link:$yellow $i$green of :$yellow$lnknmb$green is$green ON"
 #file have more than value in bts (default is 100 bytes) , then it is a valid stream , goto write file fuction
 writefile
 fi

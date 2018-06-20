@@ -1,5 +1,6 @@
 ## IPTV-Checker (Changelog)
 
+* v1.1 - multiple bug fixes
 * v1.1 - Iptv tool will check internet speed and will auto adjust settings for better perfomance
 * v1.1 - bug fixes , better cleaning of original m3u8 file before testing the streams
 * v1.0 - Implemented automatic detection of xml iptv files

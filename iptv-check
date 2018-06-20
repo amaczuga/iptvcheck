@@ -47,14 +47,14 @@ rpid=$(ps -p "$pid" -o pid= | awk '{print$1}')
 if [[ "$rpid" == "$pid" ]]
 then
 kill $pid >/dev/null 2>&1
-#rm -rf $path/temp/* >/dev/null 2>&1
+rm -rf $path/temp/* >/dev/null 2>&1
 exit 1
 else
-#rm -rf $path/temp/* >/dev/null 2>&1
+rm -rf $path/temp/* >/dev/null 2>&1
 exit 1
 fi	
 else
-#rm -rf $path/temp/* >/dev/null 2>&1
+rm -rf $path/temp/* >/dev/null 2>&1
 exit 1
 fi
 

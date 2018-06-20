@@ -11,10 +11,11 @@ In case valid urls were found , then the script will create a new iptv (m3u) fil
 # Requirements
 
 - wget
+- speedtest-cli
 
 # Install Requirements
 
-- apt-get install wget
+- apt-get install wget speedtest-cli
 
 # Tool Instalation
 

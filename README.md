@@ -1,5 +1,7 @@
 ## IPTV-CHECK 1.1
 
+Fork of https://gitlab.com/peterpt/IPTV-CHECK.git
+
 Iptv-check allows you to input a valid iptv file (m3u) to be checked if the video streams are still working or not .
 In case valid urls were found , then the script will create a new iptv (m3u) file with those urls .
 
@@ -15,7 +17,8 @@ In case valid urls were found , then the script will create a new iptv (m3u) fil
 
 # Install Requirements
 
-- apt-get install wget speedtest-cli
+- sudo apt-get install wget
+- sudo pip install speedtest-cli
 
 # Tool Instalation
 

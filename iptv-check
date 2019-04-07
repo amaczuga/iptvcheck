@@ -1,10 +1,11 @@
 #!/bin/bash
 
 VERSION="IPTV-Check Tool 1.1a"
+LATENCY_SEC=1
 
 path=$(pwd)
 sname=$0
-wfile="$path/oklist.m3u"
+wfile="$path/${WFILE:-oklist.m3u}"
 
 #setup colors
 blue='\e[0;36m'
@@ -108,23 +109,18 @@ logo() {
       echo -e "$yellow""Make sure you are connected to the web"
       finish 1
     fi
+    bts="120"
     if [[ "$netspeed" -le "10" ]]; then # 10Mbit/s
-      bts="120"
       tout="4"
-      print_speed_result "$netspeed" "$tout"
     elif [[ "$netspeed" -le "30" ]]; then # 30 Mbit/s
-      bts="120"
       tout="3"
-      print_speed_result "$netspeed" "$tout"
     elif [[ "$netspeed" -le "60" ]]; then # 60 Mbit/s
-      bts="120"
       tout="2"
-      print_speed_result "$netspeed" "$tout"
     elif [[ "$netspeed" -ge "100" ]]; then # 100 Mbit/s
-      bts="120"
       tout="1"
-      print_speed_result "$netspeed" "$tout"
     fi
+    tout=$((tout+LATENCY_SEC))
+    print_speed_result "$netspeed" "$tout"
   fi
 }
 
@@ -225,6 +221,9 @@ function teststream() {
   else
     exts="0"
   fi
+
+  # dos2unix
+  sed -i 's/\r//' "$path/temp/1"
   
   # checks if m3u file have xml content
   ckf=$(grep "<item>" <"$path/temp/1")
@@ -274,7 +273,7 @@ function teststream() {
   lnknmb=$(wc -l "$path/temp/2" |awk '{print $1}')
   # Starts the stream checks
   for i in $(seq "$lnknmb"); do
-    chkf=$(sed -n "${i}p" < "$path/temp/2")
+    chkf=$(sed -n "${i}p" <"$path/temp/2")
     # To avoid errors in previous filter , it checks if the link starts with http , rtmp or HTTP
     chkurl=$(echo "$chkf" |head -c 4)
     case "$chkurl" in
@@ -286,7 +285,7 @@ function teststream() {
         pid=$(sed -n 1p < "$path/temp/pid.tmp")
         
         # 4 seconds is the time that wget will download the stream befores gets killed
-        sleep "$tout" 
+	sleep "$tout"
 
         # checks if wget pid is still active
         rpid=$(ps -p "$pid" -o pid= |awk '{print $1}')
@@ -301,10 +300,11 @@ function teststream() {
         else
           # checks the size of the stream file
           stsz=$(wc -c "$path/temp/stream" |awk '{print $1}')
+	  stype=$(file -b "$path/temp/stream")
 
           # In case stream file is less than value in bts (default is 100 bytes) then it is not valid
           if [[ "$stsz" -le "$bts" ]]; then
-            echo -e "$green""Link:$yellow $i$green of :$yellow$lnknmb$green is$red OFF"
+            echo -e "$green""Link:$yellow $i$green of :$yellow$lnknmb$green is$red OFF (${stype}, ${chkf})"
           else
             echo -e "$green""Link:$yellow $i$green of :$yellow$lnknmb$green is$green ON"
             #file have more than value in bts (default is 100 bytes) , then it is a valid stream , goto write file fuction

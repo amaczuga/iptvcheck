@@ -22,4 +22,4 @@ In case valid urls were found , then the script will create a new iptv (m3u) fil
 
 # Tool Instalation
 
-- git clone https://gitlab.com/peterpt/IPTV-CHECK.git && cd IPTV-CHECK && ./iptv-check
+- git clone https://github.com/amaczuga/iptvcheck.git &&  iptvcheck/iptv-check

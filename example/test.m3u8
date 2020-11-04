@@ -7,3 +7,5 @@ http://185.19.191.12:8090/SVT2/index.m3u8
 https://y5w8j4a9.ssl.hwcdn.net/andprivehd/tracks-v1a1/index.m3u8
 #EXTINF:0 tvg-country="IN" tvg-logo="https://bestmediainfo.com/wp-content/uploads/2018/05/andflix-logo_4.jpg" group-title="India",& FLIX HD
 https://y5w8j4a9.ssl.hwcdn.net/andflixhd/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="NR1.NO" tvg-logo="https://static.epg.best/no/NRK1.no.png" group-title="Norge",NRK 1
+https://nrk1us-f.akamaihd.net/i/nrk1us_0@102847/master.m3u8|X-Forwarded-For=5.249.230.1

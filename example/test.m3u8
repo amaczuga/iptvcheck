@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-logo="https://mytv.com.vn/upload/channel/50.png" group-title="Japan",NHK World
+https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/se/SVT2.se.png" group-title="Sverige",SVT1
 http://185.19.191.12:8090/SVT1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/se/SVT2.se.png" group-title="Sverige",SVT2

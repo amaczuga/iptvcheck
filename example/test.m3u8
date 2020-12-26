@@ -15,6 +15,9 @@ http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/index.m3
 #EXTINF:-1 group-title="FR",BFM TV
 https://bfmtvalive1-a.akamaihd.net/fb3647b53c1a4c278eaecf83230ee4c5/eu-central-1/876450610001/playlist-all.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="Arte France" tvg-logo="https://i.imgur.com/xXRYZd6.png" group-title="FR",Arte France
+https://artelive-lh.akamaihd.net/i/artelive_fr@344805/master.m3u8
+
 #EXTINF:-1 group-title="IE",RTE News
 http://live.rte.ie/live/a/channel3/news.isml/.m3u8
 
@@ -23,6 +26,18 @@ https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-p.m3u8
 
 #EXTINF:-1 group-title="US",cbs news
 http://161.0.157.50/PLTV/88888888/224/3221227041/03.m3u8
+
+#EXTINF:-1 tvg-name="ABC News" tvg-id="ABC Eastern US" group-title="USA" tvg-logo="https://i.imgur.com/7sJLzKi.png",ABC News
+https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC" tvg-logo="https://i.imgur.com/apjLF1L.png" group-title="USA",NBC
+http://161.0.157.8/PLTV/88888888/224/3221227040/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC News Now" tvg-logo="https://i.imgur.com/v48mMRT.png" group-title="USA",NBC News Now
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumo-nbcnewsnow/CDN/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="USA" tvg-logo="https://i.imgur.com/RQWt5eT.png" group-title="USA",NFL Network
+http://cdnak19.cast4u.info/channels/4/10804.m3u8
 
 #EXTINF:-1 group-title="US",WBRC2 Baton Rouge
 http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/playlist.m3u8
@@ -156,6 +171,39 @@ http://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
 
 #EXTINF:-1 group-title="US",24/7 Your Pretty Face Is Going To Hell
 http://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #0
+https://stream.allsprk.tv/live/0/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #1
+https://stream.allsprk.tv/live/1/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #2
+https://stream.allsprk.tv/live/2/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #3
+https://stream.allsprk.tv/live/3/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #4
+https://stream.allsprk.tv/live/4/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #5
+https://stream.allsprk.tv/live/5/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #6
+https://stream.allsprk.tv/live/6/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #7
+https://stream.allsprk.tv/live/7/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #8
+https://stream.allsprk.tv/live/8/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="ALLSPRK USA",Allsprk #9
+https://stream.allsprk.tv/live/9/index.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="US",Crime Story 24/7
+https://dai.google.com/linear/hls/event/HgozmUlQQviIXFUF23mloA/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/se/SVT2.se.png" group-title="Sverige",SVT1
 http://185.19.191.12:8090/SVT1/index.m3u8

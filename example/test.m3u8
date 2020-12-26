@@ -15,9 +15,6 @@ http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/index.m3
 #EXTINF:-1 group-title="FR",BFM TV
 https://bfmtvalive1-a.akamaihd.net/fb3647b53c1a4c278eaecf83230ee4c5/eu-central-1/876450610001/playlist-all.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Arte France" tvg-logo="https://i.imgur.com/xXRYZd6.png" group-title="FR",Arte France
-https://artelive-lh.akamaihd.net/i/artelive_fr@344805/master.m3u8
-
 #EXTINF:-1 group-title="IE",RTE News
 http://live.rte.ie/live/a/channel3/news.isml/.m3u8
 

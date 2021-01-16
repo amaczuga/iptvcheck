@@ -435,3 +435,93 @@ https://internetowa.tv/?c=hlsPlay&channel=animalplanet&token=32630d8bd6461c8eaab
 
 #EXTINF:-1 tvg-logo="https://internetowa.tv/img/logo/cartoon-network.png" ,Cartoon Network
 https://internetowa.tv/?c=hlsPlay&channel=cartoonnetwork&token=32630d8bd6461c8eaabc079c45d1ac7dd5b7bf85e200b4efed77cbcbb7de4aae071a5ff6445aea241449cc1874827be7aae91e5c0cbbd7a05f244067479e0d5d
+
+#EXTINF:-1 tvg-id="" tvg-name="PH008:ANIMAX" tvg-logo="" group-title="Filipino",PH008:ANIMAX
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/50122
+
+#EXTINF:-1 tvg-id="" tvg-name="MY128:ANIMAX" tvg-logo="" group-title="Malaysia",MY128:ANIMAX
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/71100
+
+#EXTINF:-1 tvg-id="" tvg-name="MY138:ANIPLUS HD" tvg-logo="" group-title="Malaysia",MY138:ANIPLUS HD
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/71110
+
+#EXTINF:-1 tvg-id="" tvg-name="JP001:NHK-総合" tvg-logo="" group-title="Japan",JP001:NHK-総合^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51856^M
+#EXTINF:-1 tvg-id="" tvg-name="JP002:NHK-Eテレ" tvg-logo="" group-title="Japan",JP002:NHK-Eテレ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51855^M
+#EXTINF:-1 tvg-id="" tvg-name="JP003:日テレ" tvg-logo="" group-title="Japan",JP003:日テレ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51854^M
+#EXTINF:-1 tvg-id="" tvg-name="JP004:テレビ朝日" tvg-logo="" group-title="Japan",JP004:テレビ朝日^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51853^M
+#EXTINF:-1 tvg-id="" tvg-name="JP005:TBS" tvg-logo="" group-title="Japan",JP005:TBS^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51852^M
+#EXTINF:-1 tvg-id="" tvg-name="JP006:テレビ東京" tvg-logo="" group-title="Japan",JP006:テレビ東京^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51851^M
+#EXTINF:-1 tvg-id="" tvg-name="JP007:フジテレビ" tvg-logo="" group-title="Japan",JP007:フジテレビ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51850^M
+#EXTINF:-1 tvg-id="" tvg-name="JP008:TOKYOMX" tvg-logo="" group-title="Japan",JP008:TOKYOMX^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51849^M
+#EXTINF:-1 tvg-id="" tvg-name="JP009:NHK総合大阪" tvg-logo="" group-title="Japan",JP009:NHK総合大阪^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51848^M
+#EXTINF:-1 tvg-id="" tvg-name="JP010:NHKEテレ大阪" tvg-logo="" group-title="Japan",JP010:NHKEテレ大阪^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51847^M
+#EXTINF:-1 tvg-id="" tvg-name="JP011:MBS毎日放送" tvg-logo="" group-title="Japan",JP011:MBS毎日放送^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51846^M
+#EXTINF:-1 tvg-id="" tvg-name="JP012:ABCテレビ." tvg-logo="" group-title="Japan",JP012:ABCテレビ.^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51845^M
+#EXTINF:-1 tvg-id="" tvg-name="JP013:テレビ大阪" tvg-logo="" group-title="Japan",JP013:テレビ大阪^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51844^M
+#EXTINF:-1 tvg-id="" tvg-name="JP014:関西テレビ" tvg-logo="" group-title="Japan",JP014:関西テレビ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51843^M
+#EXTINF:-1 tvg-id="" tvg-name="JP015:読売テレビ" tvg-logo="" group-title="Japan",JP015:読売テレビ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51842^M
+#EXTINF:-1 tvg-id="" tvg-name="JP016:NHKBS1" tvg-logo="" group-title="Japan",JP016:NHKBS1^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51841^M
+#EXTINF:-1 tvg-id="" tvg-name="JP017:NHKBSプレミア" tvg-logo="" group-title="Japan",JP017:NHKBSプレミア^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51840^M
+#EXTINF:-1 tvg-id="" tvg-name="JP018:BS日テレ" tvg-logo="" group-title="Japan",JP018:BS日テレ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51839^M
+#EXTINF:-1 tvg-id="" tvg-name="JP019:BS朝日1" tvg-logo="" group-title="Japan",JP019:BS朝日1^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51838^M
+#EXTINF:-1 tvg-id="" tvg-name="JP020:BS-TBS" tvg-logo="" group-title="Japan",JP020:BS-TBS^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51837^M
+#EXTINF:-1 tvg-id="" tvg-name="JP021:BSジャパン" tvg-logo="" group-title="Japan",JP021:BSジャパン^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51836^M
+#EXTINF:-1 tvg-id="" tvg-name="JP022:BSフジ.181" tvg-logo="" group-title="Japan",JP022:BSフジ.181^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51835^M
+#EXTINF:-1 tvg-id="" tvg-name="JP023:WOWOWプライム." tvg-logo="" group-title="Japan",JP023:WOWOWプライム.^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51834^M
+#EXTINF:-1 tvg-id="" tvg-name="JP024:WOWOWライブ" tvg-logo="" group-title="Japan",JP024:WOWOWライブ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51833^M
+#EXTINF:-1 tvg-id="" tvg-name="JP025:WOWOWシネマ" tvg-logo="" group-title="Japan",JP025:WOWOWシネマ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51832^M
+#EXTINF:-1 tvg-id="" tvg-name="JP026:スターチャンネル 1" tvg-logo="" group-title="Japan",JP026:スターチャンネル 1^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51831^M
+#EXTINF:-1 tvg-id="" tvg-name="JP027:グリーンチャン" tvg-logo="" group-title="Japan",JP027:グリーンチャン^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51830^M
+#EXTINF:-1 tvg-id="" tvg-name="JP028:日本映画専門" tvg-logo="" group-title="Japan",JP028:日本映画専門^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51829^M
+#EXTINF:-1 tvg-id="" tvg-name="JP029:ディズニーチャ" tvg-logo="" group-title="Japan",JP029:ディズニーチャ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51828^M
+#EXTINF:-1 tvg-id="" tvg-name="JP030:東映チャンネル" tvg-logo="" group-title="Japan",JP030:東映チャンネル^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51827^M
+#EXTINF:-1 tvg-id="" tvg-name="JP031:衛星劇場" tvg-logo="" group-title="Japan",JP031:衛星劇場^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51826^M
+#EXTINF:-1 tvg-id="" tvg-name="JP032:時代劇専門" tvg-logo="" group-title="Japan",JP032:時代劇専門^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51825^M
+#EXTINF:-1 tvg-id="" tvg-name="JP033:ファミリー劇場" tvg-logo="" group-title="Japan",JP033:ファミリー劇場^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51824^M
+#EXTINF:-1 tvg-id="" tvg-name="JP034:sky.Aスポーツ" tvg-logo="" group-title="Japan",JP034:sky.Aスポーツ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51823^M
+#EXTINF:-1 tvg-id="" tvg-name="JP035:Jsports4" tvg-logo="" group-title="Japan",JP035:Jsports4^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51822^M
+#EXTINF:-1 tvg-id="" tvg-name="JP036:日テレG" tvg-logo="" group-title="Japan",JP036:日テレG^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51821^M
+#EXTINF:-1 tvg-id="" tvg-name="JP037:ゴルフネットHD" tvg-logo="" group-title="Japan",JP037:ゴルフネットHD^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51820^M
+#EXTINF:-1 tvg-id="" tvg-name="JP038:Jsports2" tvg-logo="" group-title="Japan",JP038:Jsports2^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51819^M
+#EXTINF:-1 tvg-id="" tvg-name="JP039:Jsports3" tvg-logo="" group-title="Japan",JP039:Jsports3^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51818^M
+#EXTINF:-1 tvg-id="" tvg-name="JP040:キッズステーシ" tvg-logo="" group-title="Japan",JP040:キッズステーシ^M
+http://mu03ye.wanicelife.com:8880/YATEST15/20536809/51817^M

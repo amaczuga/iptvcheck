@@ -21,7 +21,7 @@ http://live.rte.ie/live/a/channel3/news.isml/.m3u8
 #EXTINF:-1 group-title="DE",DW TV
 https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-p.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/5421f71da6af422839419cb3/featuredImage.jpg?w=300" group-title="US",CNN
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/5421f71da6af422839419cb3/colorLogoPNG.png" group-title="US",CNN
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5421f71da6af422839419cb3/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6c2a9af0-7efc-11e8-9ba8-97a2572a21e3&clientModelNumber=na&deviceDNT=false&deviceId=6c2a9af0-7efc-11e8-9ba8-97a2572a21e3&deviceLat=37.3417&deviceLon=-121.9753&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=87.0.4280.88&marketingRegion=US&serverSideAds=true&sessionID=69d1abbc-6c96-11eb-8049-0242ac110002&sid=69d1abbc-6c96-11eb-8049-0242ac110002&userId=
 
 #EXTINF:-1 group-title="US",cbs news

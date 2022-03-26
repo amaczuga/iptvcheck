@@ -919,3 +919,70 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ffc8c345822750007e167
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6080411af03506000759916e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 #EXTINF:-1 tvg-id="60db3aef7b85d300073db507" tvg-chno="980" tvg-logo="https://images.pluto.tv/channels/60db3aef7b85d300073db507/colorLogoPNG.png" group-title="France",Qwest Jazz&Beyond
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60db3aef7b85d300073db507/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF:0,Animax
+http://iptv.tvmalaysia.cc:80/435118/435118/6696
+#EXTINF:0,DMAX HD
+http://iptv.tvmalaysia.cc:80/435118/435118/6778
+#EXTINF:0,Galaxy Premium
+http://iptv.tvmalaysia.cc:80/435118/435118/8838
+#EXTINF:0,Galaxy
+http://iptv.tvmalaysia.cc:80/435118/435118/8839
+#EXTINF:0,Cinemax FHD
+http://iptv.tvmalaysia.cc:80/435118/435118/7062
+#EXTINF:0,HBO FHD
+http://iptv.tvmalaysia.cc:80/435118/435118/7067
+#EXTINF:0,HBO Signature FHD
+http://iptv.tvmalaysia.cc:80/435118/435118/7069
+#EXTINF:0,HBO Family FHD
+http://iptv.tvmalaysia.cc:80/435118/435118/7070
+#EXTINF:0,Red By HBO HD
+http://iptv.tvmalaysia.cc:80/435118/435118/7071
+#EXTINF:0,Warner TV HD
+http://iptv.tvmalaysia.cc:80/435118/435118/7072
+#EXTINF:0,National Geographic HD
+http://iptv.tvmalaysia.cc:80/435118/435118/7075
+#EXTINF:0,Nat Geo Wild HD
+http://iptv.tvmalaysia.cc:80/435118/435118/7081
+#EXTINF:0,Animal Planet
+http://iptv.tvmalaysia.cc:80/435118/435118/7077
+#EXTINF:0,Cinema World
+http://iptv.tvmalaysia.cc:80/435118/435118/7219
+#EXTINF:0,FOX
+http://iptv.tvmalaysia.cc:80/435118/435118/7227
+#EXTINF:0,KiX
+http://iptv.tvmalaysia.cc:80/435118/435118/7229
+#EXTINF:0,Celestial Classic Movies.
+http://iptv.tvmalaysia.cc:80/435118/435118/7222
+#EXTINF:0,BBC Earth
+http://iptv.tvmalaysia.cc:80/435118/435118/7233
+#EXTINF:0,Celestial Movies
+http://iptv.tvmalaysia.cc:80/435118/435118/7235
+#EXTINF:0,Disney Channel HD
+http://iptv.tvmalaysia.cc:80/435118/435118/7196
+#EXTINF:0,Tom & Jerry HD
+http://iptv.tvmalaysia.cc:80/435118/435118/8986
+#EXTINF:0,TSN 1
+http://iptv.tvmalaysia.cc:80/435118/435118/8923
+#EXTINF:0,TSN 2
+http://iptv.tvmalaysia.cc:80/435118/435118/8924
+#EXTINF:0,TSN 3
+http://iptv.tvmalaysia.cc:80/435118/435118/8925
+#EXTINF:0,TSN 4
+http://iptv.tvmalaysia.cc:80/435118/435118/8926
+#EXTINF:0,DSTV: SuperSport Motorsport
+http://iptv.tvmalaysia.cc:80/435118/435118/7142
+#EXTINF:0,BT Sport 1
+http://iptv.tvmalaysia.cc:80/435118/435118/6610
+#EXTINF:0,BT Sport 2
+http://iptv.tvmalaysia.cc:80/435118/435118/6611
+#EXTINF:0,BT Sport 3
+http://iptv.tvmalaysia.cc:80/435118/435118/6612
+#EXTINF:0,UK: Sky Sports News
+http://iptv.tvmalaysia.cc:80/435118/435118/6614
+#EXTINF:0,UK: Sky Sports F1
+http://iptv.tvmalaysia.cc:80/435118/435118/6617
+#EXTINF:0,Disney XD FHD
+http://iptv.tvmalaysia.cc:80/435118/435118/7198
+#EXTINF:0,Nickelodeon
+http://iptv.tvmalaysia.cc:80/435118/435118/7201

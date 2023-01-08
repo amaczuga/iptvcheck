@@ -1005,3 +1005,5 @@ http://iptv.tvmalaysia.cc:80/435118/435118/6617
 http://iptv.tvmalaysia.cc:80/435118/435118/7198
 #EXTINF:0,Nickelodeon
 http://iptv.tvmalaysia.cc:80/435118/435118/7201
+#EXTINF:0,RTR Planeta
+https://vgtrksmotrim.cdnvideo.ru/hls/planeta_rtr_euro/playlist_3.m3u8?md5=qrVsp4COoaZhyeLQS4mjgA&e=1673144880&hls_proxy_host=70b013ca21e8364cd537747cf862272b
